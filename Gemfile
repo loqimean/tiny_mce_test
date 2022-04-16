@@ -68,3 +68,5 @@ group :development do
 end
 
 gem 'tinymce-rails'
+
+gem "carrierwave", "~> 2.2"
