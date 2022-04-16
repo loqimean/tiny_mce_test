@@ -1,0 +1,15 @@
+<header class="w-screen h-fit fixed inset-0 bg-white shadow-sm py-5">
+  <div class="container flex items-center justify-between mx-auto px-5">
+    <span class="text-2xl font-bold">HuntiCloud</span>
+
+    <div class="uppercase">
+      <div class="hidden lg:flex gap-5">
+        <%= link_to 'Home', '#', class: 'transition-all hover:font-extrabold duration-300 ease-in-out' %>
+        <%= link_to 'About', '#', class: 'transition-all hover:font-extrabold duration-300 ease-in-out' %>
+        <%= link_to 'Contacts', '#', class: 'transition-all hover:font-extrabold duration-300 ease-in-out' %>
+      </div>
+
+      <%= button_to '=', '#', class: 'font-bold text-xl lg:hidden' %>
+    </div>
+  </div>
+</header>
